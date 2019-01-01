@@ -1,6 +1,6 @@
 FROM alpine
 
-MAINTAINER Sebastian Wegert <swe@covis.de>
+LABEL author="Sebastian Wegert <swe@covis.de>"
 
 ENV K8S_VERSION="v1.11.6"
 
