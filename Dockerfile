@@ -2,7 +2,7 @@ FROM alpine
 
 LABEL author="Sebastian Wegert <swe@covis.de>"
 
-ENV K8S_VERSION="v1.12.8"
+ENV K8S_VERSION="v1.14.1"
 
 RUN apk add --update ca-certificates \
 && apk add --update -t deps curl \
